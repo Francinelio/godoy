@@ -1,0 +1,19 @@
+# Site settings
+lang: 
+title: Site Title
+description: >-
+  #
+keywords:
+author:
+url: ""
+
+# Build settings
+markdown: kramdown
+theme: null
+sass:
+  style: compressed
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"

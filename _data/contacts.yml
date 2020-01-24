@@ -1,0 +1,12 @@
+- type: phone
+  formated: "+000 000 000 000"
+  link: "tel:+000000000"
+  icon: fas fa-phone
+- type: whatsapp
+  formated: "+000 000 000 000"
+  link: "https://wa.me/+000000000"
+  icon: fab fa-whatsapp
+- type: email
+  formated: "contact@domain.com"
+  link: "mailto:contact@domain.com"
+  icon: fas fa-envelope
