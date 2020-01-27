@@ -2,7 +2,7 @@
   link: "/"
 - name: Equipa/Parcerias
   link: "equipa"
-- name: Advocacia Internacional
+- name: Adv. Internacional
   link: "advocacia"
 - name: Contactos
-  link: "contactos"
+  link: "#contactos"
