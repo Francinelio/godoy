@@ -1,11 +1,12 @@
-    <div id="contact" class="bg-dark text-light py-5">
-    <div class="container">
+    <div id="contact" class="bg-light text-dark">
+    <div class="container-fluid">
         <div class="row">
-            <div class="col-12 col-md-5 col-lg-4 pb-5">
-                <h2 class="pb-3">Contact</h2>
+            <div class="col-12 col-md-5 col-lg-4 p-md-0 py-3 py-mg-0 pl-md-5">
+                <h2 class="display-4 playfair text-primary">Contactos</h2>
+                <hr width="100px" align="left" class="mb-3">
                 {% for item in site.data.contacts %}
                 <p>
-                    <a class="text-light" target="_blank" href="{{ item.url }}">
+                    <a class="text-dark" target="_blank" href="{{ item.url }}">
                         <i class="{{ item.icon }} pr-4"></i>
                         {{ item.formated }}
                     </a>
@@ -16,18 +17,18 @@
                         <i class="fas fa-map-marked-alt"></i>
                     </div>
                     <div class="col-auto">
-                        Street Name, 000
+                        Av. da Liberdade, 615
                         <br> 
-                        City, State
+                        1º andar
                         <br>
-                        Zip Code
+                        Braga, Portugal
                         <br>
-                        Country
+                        4710-251
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-7 col-lg-8">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2970.018172250668!2d12.483136314967178!3d41.8924662724948!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f61b383a9cdef%3A0xfa914007c0ec7de6!2sRoman%20Forum!5e0!3m2!1sen!2sbr!4v1578422446669!5m2!1sen!2sbr" width="100%" height="400" frameborder="0" style="border:0;" allowfullscreen="" class="shadow"></iframe>
+            <div class="col-12 col-md-7 col-lg-8 p-0">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5971.811767848072!2d-8.421944!3d41.549635!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd24fec1a5be29b7%3A0xa5b213bd6f90f1ae!2sAv.%20da%20Liberdade%20615%2C%204710-245%20Braga%2C%20Portugal!5e0!3m2!1spt-BR!2sbr!4v1580113629948!5m2!1spt-BR!2sbr" width="100%" height="550" frameborder="0" allowfullscreen="" class=""></iframe>
             </div>
         </div>
     </div>

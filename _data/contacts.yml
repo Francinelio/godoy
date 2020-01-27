@@ -1,12 +1,28 @@
 - type: phone
-  formated: "+000 000 000 000"
-  link: "tel:+000000000"
+  formated: "+351 253 120 716"
+  link: "tel:+"
   icon: fas fa-phone
 - type: whatsapp
-  formated: "+000 000 000 000"
-  link: "https://wa.me/+000000000"
+  formated: "+351 253 120 716"
+  link: "https://wa.me/+"
   icon: fab fa-whatsapp
 - type: email
-  formated: "contact@domain.com"
-  link: "mailto:contact@domain.com"
+  formated: "mgaassociados@sapo.pt"
+  link: "mailto:"
   icon: fas fa-envelope
+- type: linkedin
+  formated: "@murilo-godoy"
+  link: ""
+  icon: fab fa-linkedin
+- type: facebook
+  formated: "@murilo-godoy"
+  link: ""
+  icon: fab fa-facebook-square
+- type: twitter
+  formated: "@murilo-godoy"
+  link: ""
+  icon: fab fa-twitter-square
+- type: youtube
+  formated: "@murilo-godoy"
+  link: ""
+  icon: fab fa-youtube
