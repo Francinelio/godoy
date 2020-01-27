@@ -1,8 +1,11 @@
 <nav class="navbar navbar-expand-lg navbar-dark fixed-top py-4">
     <div class="container">
-        <a class="navbar-brand" href="{{ site.link }}">
-            <img src="assets/img/logo.svg" width="30" height="30" class="d-inline-block align-top" alt="">
-            {{ site.title }}
+        <a class="navbar-brand text-white m-0" href="{{ site.link }}">
+            <img src="assets/img/logo-white.svg" width="60" height="60" class="d-inline-block align-top pt-2" alt="">
+            <div class="d-inline-block">
+                <div class="d-block playfair p-0 title">Murilo Godoy</div>
+                <div class="d-block col-12 playfair p-0 subtitle">Advocacia Internacional</div>
+            </div>
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -10,15 +13,15 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav mx-auto">
                 {% for item in site.data.navbar %}
-                <li class="nav-item active">
+                <li class="nav-item{% if page.url == item.link %} active{% endif %} text-center py-2">
                     <a class="nav-link" href="{{ item.link }}">{{ item.name }}</a>
                 </li>
                 {% endfor %}
             </ul>
             <ul class="navbar-nav">
-                <li class="nav-item active d-flex justify-content-left">
+                <li class="nav-item d-flex justify-content-center">
                     {% for item in site.data.contacts %}
-                    <a class="nav-link pr-2" target="_blank" href="{{ item.link }}"><i class="{{ item.icon }}"></i></a>
+                    <a class="icons nav-link p-2" target="_blank" href="{{ item.link }}"><i class="{{ item.icon }}"></i></a>
                     {% endfor %}
                 </li>
             </ul>

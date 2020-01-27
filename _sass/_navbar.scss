@@ -18,12 +18,15 @@ html, body {
         scroll-behavior: smooth;
     }
 .navbar {
+    .icons {
+        font-size: 1.5rem;
+    }
     position: relative;
     display: flex;
     flex-wrap: wrap; // allow us to do the line break for collapsing content
     align-items: center;
     justify-content: space-between; // space out brand from logo
-    padding: $navbar-padding-y $navbar-padding-x;
+    padding: 0px $navbar-padding-x;
 
     // Because flex properties aren't inherited, we need to redeclare these first
     // few properties so that content nested within behave properly.
@@ -54,9 +57,15 @@ html, body {
 // Used for brand, project, or site names.
 
 .navbar-brand {
+    .title {
+        font-size: 1.6rem;
+    }
+    .subtitle {
+        font-size: 0.9rem;
+    }
   display: inline-block;
-  padding-top: $navbar-brand-padding-y;
-  padding-bottom: $navbar-brand-padding-y;
+  padding-top: 0px;
+  padding-bottom: 0px;
   margin-right: $navbar-padding-x;
   @include font-size($navbar-brand-font-size);
   line-height: inherit;
