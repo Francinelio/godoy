@@ -1,0 +1,10 @@
+- name: Início
+  link: "/"
+- name: Áreas de Atuação
+  link: "areas"
+- name: Parcerias
+  link: "parcerias"
+- name: Artigos
+  link: "artigos"
+- name: Contactos
+  link: "#contactos"
