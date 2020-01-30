@@ -9,9 +9,9 @@
       link: "/areas/imigracao"
     - name: Atos Notariais
       link: "/areas/atos-notariais"
-- name: Parcerias
-  link: "parcerias"
+- name: Equipa
+  link: "/equipa"
+- name: Onde Estamos
+  link: "/onde-estamos"
 - name: Artigos
-  link: "artigos"
-- name: Contactos
-  link: "contactos"
+  link: "/artigos"
