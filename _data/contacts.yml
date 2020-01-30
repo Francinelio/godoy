@@ -1,28 +1,24 @@
 - type: phone
   formated: "+351 253 120 716"
-  link: "tel:+"
+  link: "tel:+351253120716"
   icon: fas fa-phone
 - type: whatsapp
-  formated: "+351 253 120 716"
-  link: "https://wa.me/+"
+  formated: "+351 913 701 800"
+  link: "https://wa.me/+351913701800"
   icon: fab fa-whatsapp
 - type: email
   formated: "mgaassociados@sapo.pt"
-  link: "mailto:"
+  link: "mailto:mgaassociados@sapo.pt"
   icon: fas fa-envelope
-- type: linkedin
-  formated: "@murilo-godoy"
-  link: ""
-  icon: fab fa-linkedin
 - type: facebook
-  formated: "@murilo-godoy"
-  link: ""
+  formated: "@murilocmgodoy"
+  link: "https://www.facebook.com/murilocmgodoy"
   icon: fab fa-facebook-square
 - type: twitter
-  formated: "@murilo-godoy"
-  link: ""
+  formated: "@murilocmgodoy76"
+  link: "https://twitter.com/murilocmgodoy76"
   icon: fab fa-twitter-square
 - type: youtube
-  formated: "@murilo-godoy"
-  link: ""
+  formated: "Olhar de um Emigrante! by Murilo Godoy"
+  link: "https://www.youtube.com/channel/UCNShzqsuu8-D5-MXY5F4mGA"
   icon: fab fa-youtube
