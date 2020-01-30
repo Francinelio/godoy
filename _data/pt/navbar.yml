@@ -4,11 +4,11 @@
   dropdown: dropdown
   submenu:
     - name: Adv. Internacional
-      link: "areas/advocacia-internacional"
+      link: "/areas/advocacia-internacional"
     - name: Imigração
-      link: "areas/imigracao"
+      link: "/areas/imigracao"
     - name: Atos Notariais
-      link: "areas/atos-notariais"
+      link: "/areas/atos-notariais"
 - name: Parcerias
   link: "parcerias"
 - name: Artigos
