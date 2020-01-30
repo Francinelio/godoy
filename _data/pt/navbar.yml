@@ -1,15 +1,14 @@
 - name: Início
   link: "/"
 - name: Áreas de Atuação
-  link: "areas"
   dropdown: dropdown
   submenu:
     - name: Adv. Internacional
-      link: "advocacia-internacional"
+      link: "areas/advocacia-internacional"
     - name: Imigração
-      link: "imigracao"
+      link: "areas/imigracao"
     - name: Atos Notariais
-      link: "atos-notariais"
+      link: "areas/atos-notariais"
 - name: Parcerias
   link: "parcerias"
 - name: Artigos
