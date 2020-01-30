@@ -8,9 +8,9 @@ $(".navbar-toggler").click(function(){
 }); 
 
 // Collapse menu icon on link touch
-$('.navbar-collapse a').click(function(){
-    $(".navbar-collapse").collapse('hide');
-}); 
+//$('.navbar-collapse a').click(function(){
+//    $(".navbar-collapse").collapse('hide');
+//}); 
 
 // On scroll
 window.onscroll = function() {scrollFunction()};
