@@ -1,0 +1,24 @@
+- type: Office
+  formated: "+351 253 120 716"
+  link: "tel:+351253120716"
+  icon: phone-pt.svg
+- type: Portugal
+  formated: "+351 913 701 800"
+  link: "tel:+351913701800"
+  icon: mobile-pt.svg
+- type: Brasil
+  formated: "+55 65 99978 6121"
+  link: "tel:+5565999786121"
+  icon: mobile-br.svg
+- type: whatsapp
+  formated: "+351 913 701 800"
+  link: "https://wa.me/+351913701800"
+  icon: whatsapp.svg
+- type: email
+  formated: "mgaassociados@sapo.pt"
+  link: "mailto:mgaassociados@sapo.pt"
+  icon: gmail.svg
+- type: facebook
+  formated: "@murilocmgodoy"
+  link: "https://www.facebook.com/murilocmgodoy"
+  icon: facebook.svg

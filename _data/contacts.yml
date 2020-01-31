@@ -1,6 +1,14 @@
 - type: phone
-  formated: "+351 253 120 716"
+  formated: "+351 253 120 716 (Fixo)"
   link: "tel:+351253120716"
+  icon: fas fa-phone
+- type: Portugal
+  formated: "+351 913 701 800 (Móvel)"
+  link: "tel:+351913701800"
+  icon: fas fa-phone
+- type: Brasil
+  formated: "+55 65 99978 6121 (Móvel)"
+  link: "tel:+5565999786121"
   icon: fas fa-phone
 - type: whatsapp
   formated: "+351 913 701 800"

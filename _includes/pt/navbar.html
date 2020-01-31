@@ -31,8 +31,8 @@
             </ul>
             <ul class="navbar-nav">
                 <li class="nav-item d-flex justify-content-center">
-                    {% for item in site.data.contacts %}
-                    <a class="icons nav-link p-2" target="_blank" href="{{ item.link }}"><i class="{{ item.icon }}"></i></a>
+                    {% for item in site.data.contacts-2 %}
+                        <a class="icons nav-link px-2 pt-1" href="{{ item.link }}"><img src="{{ site.url }}/assets/img/icons/{{ item.icon }}" alt="" class="d-inline-block" width="25px" height="25px"></a>
                     {% endfor %}
                     <a class="icons nav-link px-2 pt-1" href="{{ site.url }}/en"><img src="{{ site.url }}/assets/img/uk.svg" alt="" class="d-inline-block" width="25px" height="25px"></a>
                 </li>
