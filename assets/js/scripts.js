@@ -35,3 +35,8 @@ function scrollFunction() {
 
 // Get current year
 $("#date").text( (new Date).getFullYear() );
+
+// Toggle tooltip
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
