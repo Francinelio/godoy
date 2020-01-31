@@ -1,13 +1,13 @@
-<div id="contact" class="bg-light text-dark">
+<div id="contact" class="bg-dark text-light">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-12 col-md-6 pl-md-5 py-5">
-                <h2 class="playfair text-primary">Contatos</h2>
+            <div class="col-12 col-md-6 pl-md-5 py-5 shadow">
+                <h2 class="playfair text-primary font-weight-bold">Contatos</h2>
                 <hr width="100px" align="left" class="">
                 <br>
                 {% for item in site.data.contacts %}
                 <p>
-                    <a class="text-dark" target="_blank" href="{{ item.url }}">
+                    <a class="text-light" target="_blank" href="{{ item.url }}">
                         <i class="{{ item.icon }} pr-4"></i>
                         {{ item.formated }}
                     </a>

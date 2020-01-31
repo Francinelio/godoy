@@ -1,94 +1,79 @@
 ---
 layout: pt
 ---
-    <div class="jumbotron d-flex align-items-center justify-content-center my-0">
-        <div class="container">
-            <div class="col-lg-10 mx-auto text-center text-white">
-                <h1 class="display-3 font-weight-bold playfair mt-5 pt-5">De <span class="text-primary">Portugal</span> para o <span class="text-primary">Mundo</span></h1>
-                <p class="lead poppins py-3">Somos um Escritório sediado em Portugal e atendemos a clientes localizados em diversos países.</p>
+<div class="jumbotron d-flex align-items-center justify-content-center my-0">
+    <div class="container">
+        <div class="col-lg-10 mx-auto text-center text-white">
+            <h1 class="display-3 font-weight-bold playfair mt-5 pt-5">De <span class="text-primary">Portugal</span> para o <span class="text-primary">Mundo</span></h1>
+            <p class="lead poppins py-3">Somos um Escritório sediado em Portugal e atendemos a clientes localizados em diversos países.</p>
+        </div>
+    </div>
+</div>
+
+<div id="home">
+    <div class="bg-light">
+        <div class="container py-5">
+                    <h2 class="playfair text-primary text-center font-weight-bold">Áreas de Atuação</h2>
+                    <hr width="100px" align="center">
+            <div class="row d-flex justify-content-around text-dark poppins text-center">
+                {% for item in site.data.pt.areas %}
+                <div class="col-12 col-md-4 p-3">
+                    <div class="card shadow">
+                        <img src="{{ site.url }}{{ item.img }}" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-primary font-weight-bold playfair">{{ item.name }}</h5>
+                            <p class="card-text">{{ item.description }}</p>
+                            <a href="{{ site.url }}{{ item.link }}" class="btn btn-primary">Saiba Mais</a>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
             </div>
         </div>
     </div>
-
-<div id="home">
-    <div class="bg-light text-dark">
+    <div class="bg-dark text-light">
         <div class="container-fluid">
             <div class="row">
                 <div class="photo-1 col-12 col-md-6 col-lg-6 p-0 d-flex align-items-center">
                 </div>
                 <div class="col-12 col-md-6 col-lg-6 px-lg-5 py-5 my-auto">
-                    <h2 class="playfair text-primary">Sobre Nós</h2>
+                    <h2 class="playfair text-primary font-weight-bold">Sobre Nós</h2>
                     <hr width="100px" align="left">
                     <p class="poppins py-3">
                         O Escritório foi objeto de reunião de esforços entre Advogados, em Portugal e no Brasil, com carreiras consolidadas na área jurídica, com objetivo de prestação de serviços jurídicos com excelência, pautados pela eficiência, transparência, ética e responsabilidade.
                     </p>
+                            <a href="{{ site.url }}/equipe" class="btn btn-primary poppins">Nossa Equipe</a>
                 </div>
             </div>
         </div>
     </div>
-    <div class="bg-dark text-light">
-        <div class="container-fluid">
+    <div class="bg-light text-dark py-5 w-100">
+        <div class="container">
+            <h2 class="playfair text-primary font-weight-bold">Últimos Artigos e Notícias</h2>
+            <hr width="100px" align="left" class="mb-4">
             <div class="row">
-                <div class="photo-2 col-12 col-md-6 col-lg-6 p-0 order-md-last d-flex align-items-center">
-                </div>
-                <div class="col-12 col-md-6 col-lg-6 px-lg-5 py-5 my-auto">
-                    <h2 class="playfair text-primary">Áreas de Atuação</h2>
-                    <hr width="100px" align="left">
-                    <ul class="poppins pt-3">
-                        <li><i class="fa fa-check pr-3"></i>Consultorias jurídicas internacionais</li>
-                        <li><i class="fa fa-check pr-3"></i>Estudos fiscais e aduaneiros da União Europeia</li>
-                        <li><i class="fa fa-check pr-3"></i>Família internacional</li>
-                        <li><i class="fa fa-check pr-3"></i>Tributário internacional</li>
-                        <li><i class="fa fa-check pr-3"></i>Direito de startup e open innovation</li>
-                        <li><i class="fa fa-check pr-3"></i>Representações à pessoa coletiva (PJ's) na União Europeia</li>
-                    </ul>
-                    <div class="text-center text-md-left">
-                        <a class="btn btn-primary btn-lg poppins mt-3 mb-3" href="/areas/advocacia-internacional" role="button">Saiba Mais</a>
+                <div class="col-12 col-md-8 poppins">
+                    <div class="card bg-white text-dark mb-3 shadow">
+                        <div class="card-body">
+                            <h5 class="card-title text-primary font-weight-bold playfair">Jurisprudências Tribunal de Contas sobre os Municípios - Analise a Acórdãos Português e Brasil</h5>
+                            <p class="card-text">O presente estudo tem como à análise semântica dos aspetos pontuais de Jurisprudências dos Tribunais de Contas em matérias atribuídas aos Municípios, com base adotadas, no ... <a href="">Continue lendo</a></p>
+                        </div>
+                    </div>
+                    <div class="card bg-white text-dark mb-3 shadow">
+                        <div class="card-body">
+                            <h5 class="card-title text-primary font-weight-bold playfair">Jurisprudências Tribunal de Contas sobre os Municípios - Analise a Acórdãos Português e Brasil</h5>
+                            <p class="card-text">O presente estudo tem como à análise semântica dos aspetos pontuais de Jurisprudências dos Tribunais de Contas em matérias atribuídas aos Municípios, com base adotadas, no ... <a href="">Continue lendo</a></p>
+                        </div>
+                    </div>
+                    <div class="card bg-white text-dark mb-3 shadow">
+                        <div class="card-body">
+                            <h5 class="card-title text-primary font-weight-bold playfair">Jurisprudências Tribunal de Contas sobre os Municípios - Analise a Acórdãos Português e Brasil</h5>
+                            <p class="card-text">O presente estudo tem como à análise semântica dos aspetos pontuais de Jurisprudências dos Tribunais de Contas em matérias atribuídas aos Municípios, com base adotadas, no ... <a href="">Continue lendo</a></p>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </div>
-    <div class="bg-light text-dark">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="photo-3 col-12 col-md-6 col-lg-6 p-0 d-flex align-items-center">
-                </div>
-                <div class="col-12 col-md-6 col-lg-6 px-lg-5 py-5 my-auto">
-                    <h2 class="playfair text-primary">Imigração</h2>
-                    <hr width="100px" align="left">
-                    <div class="poppins">
-                        <p>
-                            Temos uma grande atuação na <span class="text-primary">área de imigração e naturalização portuguesa</span>, desde o aconselhamento legal preventivo de clientes até sua efetiva representação perante o S.E.F. (Serviço Estrangeiro de Fronteira) e também nos tribunais de competência.
-                        </p>
-                        <p>
-                            Viver legalmente em Portugal é uma conquista significativa para centenas de famílias e indivíduos de diversos países.
-                        </p>
-                        <p>
-                            Com assistência em português, inglês e espanhol, nós oferecemos diversos serviços. Toque no botão abaixo para agendar uma consulta.
-                        </p>
-                    </div>
-                    <div class="text-center text-md-left">
-                        <a class="btn btn-primary btn-lg poppins mt-3 mb-3" href="/areas/imigracao" role="button">Agendamento</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="bg-dark text-light">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="photo-4 col-12 col-md-6 col-lg-6 p-0 order-md-last d-flex align-items-center">
-                </div>
-                <div class="col-12 col-md-6 col-lg-6 px-lg-5 py-5 my-auto">
-                    <h2 class="playfair text-primary">Atos Notariais</h2>
-                    <hr width="100px" align="left">
-                    <p class="poppins py-3">
-                        Com fundamentos legais nos Decreto Lei n. 28/2000 de 13 de março, c/c Decreto Lei n. 237/2001 de 30 de agosto, c/c o art. 38 do Decreto Lei n. 76-A/2006 de 29 de março, e c/c o Decreto Lei n. 116/2008 de 04 de julho, c/c Decreto Lei 125/2006 de 29 de junho, c/c Portaria n.º 1535/2008, de 30 de dezembro, na redacção da Portaria n.º 286/2012, de 20 de setembro, c/c Regulamento Emolumentar dos <span class="text-primary">Registos e Notoriado</span>, aprovado pelo Decreto-Lei n.º 322-A/2001, de 14 de Dezembro - Portaria 574/2008 de 4 de Julho - Portaria 385/2004 de 16 de Abril, c/c as alíneas "a" e "d" do n.1 do art 3 do Código de Notários, foram criados condições para os Advogados prestarem serviços relacionados a todos estes actos realizados com a mesma força e o mesmo valor probatório dos actos congéneres praticados por notário.
-                    </p>
-                    <div class="text-center text-md-left">
-                        <a class="btn btn-primary btn-lg poppins mt-3 mb-3" href="/areas/atos-notariais" role="button">Atos Notariais</a>
-                    </div>
+                <div class="col-12 col-md-4 text-center">
+                    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fpt.euronews&tabs=timeline&width=290&height=500&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=false&appId" width="290" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media" class="shadow"></iframe>
                 </div>
             </div>
         </div>

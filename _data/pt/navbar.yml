@@ -3,15 +3,21 @@
 - name: Áreas de Atuação
   dropdown: dropdown
   submenu:
-    - name: Adv. Internacional
-      link: "/areas/advocacia-internacional"
+    - name: Direito Tributário e Fiscal Internacional
+      link: /areas/tributario-e-fiscal
+    - name: Direito de Startup e Open Innovation
+      link: /areas/startup-e-open-innovation
+    - name: Direito Internacional
+      link: /areas/direito-internacional
+    - name: Direito de Família Internacional
+      link: /areas/familia-internacional
     - name: Imigração
-      link: "/areas/imigracao"
+      link: /areas/imigracao
     - name: Atos Notariais
-      link: "/areas/atos-notariais"
-- name: Equipa
-  link: "/equipa"
+      link: /areas/atos-notariais
 - name: Onde Estamos
   link: "/onde-estamos"
+- name: Equipe
+  link: "/equipe"
 - name: Artigos
   link: "/artigos"
