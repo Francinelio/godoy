@@ -1,4 +1,4 @@
-#international {
+#family {
     .jumbotron {
         padding: $jumbotron-padding ($jumbotron-padding / 2);
         margin-bottom: $jumbotron-padding;
@@ -8,9 +8,9 @@
             padding: ($jumbotron-padding * 2) $jumbotron-padding;
         }
         height: 50%;
-        background-image: linear-gradient(rgba(20, 29, 40, 0.73), rgba(20, 29, 40, 0.73)), url("../img/areas/lady.jpg");
+        background-image: linear-gradient(rgba(20, 29, 40, 0.73), rgba(20, 29, 40, 0.73)), url("../img/areas/family.jpg");
         background-attachment: fixed;
-        background-position: right;
+        background-position: bottom;
         background-repeat: no-repeat;
         background-size: cover;
         hr {
