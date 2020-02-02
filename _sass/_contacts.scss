@@ -1,6 +1,10 @@
 hr {
     border: 1px solid $primary;
 }
-#map {
+#maps {
     min-height: 450px;
+        background-image: url("../img/maps.png");
+        background-position: left;
+        background-repeat: no-repeat;
+        background-size: cover;
 }
