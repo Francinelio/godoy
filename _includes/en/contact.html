@@ -1,0 +1,36 @@
+<div id="contact" class="bg-dark text-light">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-md-6 pl-md-5 py-5 shadow">
+                <h2 class="playfair text-primary font-weight-bold">Contact Us</h2>
+                <hr width="100px" align="left" class="">
+                <br>
+                {% for item in site.data.contacts %}
+                <p>
+                    <a class="text-light" target="_blank" href="{{ item.link }}">
+                        <i class="{{ item.icon }} pr-4"></i>
+                        {{ item.formated }}
+                    </a>
+                </p>
+                {% endfor %}
+                <div class="row">
+                    <div class="col-auto">
+                        <i class="fas fa-map-marked-alt"></i>
+                    </div>
+                    <div class="col-auto">
+                        Av. da Liberdade, 615
+                        <br> 
+                        1º andar
+                        <br>
+                        Braga, Portugal
+                        <br>
+                        4710-251
+                    </div>
+                </div>
+            </div>
+            <div id="map" class="col-12 col-md-6 ml-auto p-0 d-flex align-items-center shadow">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5971.811767848072!2d-8.421944!3d41.549635!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd24fec1a5be29b7%3A0xa5b213bd6f90f1ae!2sAv.%20da%20Liberdade%20615%2C%204710-245%20Braga%2C%20Portugal!5e0!3m2!1spt-BR!2sbr!4v1580113629948!5m2!1spt-BR!2sbr" height="100%" width="100%" frameborder="0" allowfullscreen="" class=""></iframe>
+            </div>
+        </div>
+    </div>
+</div>

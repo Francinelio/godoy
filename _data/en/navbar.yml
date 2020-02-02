@@ -1,0 +1,23 @@
+- name: Home
+  link: "/"
+- name: Practice Areas
+  dropdown: dropdown
+  submenu:
+    - name: International Tax and Tax Law
+      link: /areas/tributario-e-fiscal
+    - name: Startup e Open Innovation Law
+      link: /areas/startup-e-open-innovation
+    - name: International Law
+      link: /areas/direito-internacional
+    - name: International Family Law
+      link: /areas/familia-internacional
+    - name: Immigration
+      link: /areas/imigracao
+    - name: Notary Acts
+      link: /areas/atos-notariais
+- name: Office
+  link: "/onde-estamos"
+- name: Team
+  link: "/equipe"
+- name: Articles
+  link: "/artigos"
