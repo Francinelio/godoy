@@ -5,19 +5,31 @@
                 <h2 class="playfair text-primary font-weight-bold">Contatos</h2>
                 <hr width="100px" align="left" class="">
                 <br>
-                {% for item in site.data.contacts %}
+                {% for item in site.data.pt.contacts %}
                 <p>
                     <a class="text-light" target="_blank" href="{{ item.link }}">
-                        <i class="{{ item.icon }} pr-4"></i>
+                        <img src="{{ site.url }}/assets/img/icons/{{ item.icon }}" alt="" class="d-inline-block pr-1" width="25px" height="25px">
                         {{ item.formated }}
                     </a>
                 </p>
                 {% endfor %}
+                <p class="">
+                    <a href="https://twitter.com/murilocmgodoy76" class="text-light">
+                        <img src="{{ site.url }}/assets/img/icons/twitter.svg" alt="" class="d-inline-block pr-1" width="25px" height="25px">
+                        @murilocmgodoy76
+                    </a>
+                </p>
+                <p class="">
+                    <a href="https://www.youtube.com/channel/UCNShzqsuu8-D5-MXY5F4mGA" class="text-light">
+                        <img src="{{ site.url }}/assets/img/icons/youtube.svg" alt="" class="d-inline-block pr-1" width="25px" height="25px">
+                        Olhar de um Emigrante! by Murilo Godoy
+                    </a>
+                </p>
                 <div class="row">
-                    <div class="col-auto">
-                        <i class="fas fa-map-marked-alt"></i>
+                    <div class="col-auto pr-1">
+                        <img src="{{ site.url }}/assets/img/icons/map.svg" alt="" class="d-inline-block pr-1" width="25px" height="25px">
                     </div>
-                    <div class="col-auto">
+                    <div class="col-auto pl-1">
                         Av. da Liberdade, 615
                         <br> 
                         1º andar

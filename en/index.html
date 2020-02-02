@@ -17,14 +17,14 @@ layout: en
                     <h2 class="playfair text-primary text-center font-weight-bold">Practice Areas</h2>
                     <hr width="100px" align="center">
             <div class="row d-flex justify-content-around text-dark poppins text-center">
-                {% for item in site.data.pt.areas %}
+                {% for item in site.data.en.areas %}
                 <div class="col-12 col-md-4 p-3">
                     <div class="card shadow">
                         <img src="{{ site.url }}{{ item.img }}" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title text-primary font-weight-bold playfair">{{ item.name }}</h5>
                             <p class="card-text">{{ item.description }}</p>
-                            <a href="{{ site.url }}{{ item.link }}" class="btn btn-primary">Saiba Mais</a>
+                            <a href="{{ site.url }}{{ item.link }}" class="btn btn-primary">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -74,7 +74,7 @@ layout: en
                     </div>
                 </div>
                 <div class="col-12 col-md-4 text-center">
-                    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fpt.euronews&tabs=timeline&width=290&height=500&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=false&appId" width="290" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media" class="shadow"></iframe>
+                    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Feuronews&tabs=timeline&width=290&height=500&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=false&appId" width="290" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media" class="shadow"></iframe>
                 </div>
             </div>
         </div>

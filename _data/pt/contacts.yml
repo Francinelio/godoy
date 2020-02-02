@@ -1,13 +1,13 @@
-- type: Portugal
-  formated: "+351 253 120 716"
+- type: Fixo (Portugal)
+  formated: "+351 253 120 716 Landline (Portugal)"
   link: "tel:+351253120716"
   icon: phone-pt.svg
-- type: Portugal
-  formated: "+351 913 701 800"
+- type: Móvel (Portugal)
+  formated: "+351 913 701 800 Mobile (Portugal)"
   link: "tel:+351913701800"
   icon: mobile-pt.svg
-- type: Brasil
-  formated: "+55 65 99978 6121"
+- type: Móvel (Brazil)
+  formated: "+55 65 99978 6121 Mobile (Brazil)"
   link: "tel:+5565999786121"
   icon: mobile-br.svg
 - type: WhatsApp
