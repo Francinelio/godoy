@@ -1,6 +1,3 @@
-// Animate on Scroll
-new WOW().init();
-
 // Change menu color
 $(".navbar-toggler").click(function(){
     $("nav").addClass('bg-dark');
