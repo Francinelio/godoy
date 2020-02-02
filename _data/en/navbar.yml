@@ -4,20 +4,20 @@
   dropdown: dropdown
   submenu:
     - name: International Tax and Tax Law
-      link: /areas/tributario-e-fiscal
+      link: /en/areas/tax-law
     - name: Startup e Open Innovation Law
-      link: /areas/startup-e-open-innovation
+      link: /en/areas/startup-and-open-innovation
     - name: International Law
-      link: /areas/direito-internacional
+      link: /en/areas/international-law
     - name: International Family Law
-      link: /areas/familia-internacional
+      link: /en/areas/international-family-law
     - name: Immigration Law
-      link: /areas/imigracao
+      link: /en/areas/immigration-law
     - name: Notary Acts
-      link: /areas/atos-notariais
+      link: /en/areas/notary-acts
 - name: Office
-  link: "/onde-estamos"
+  link: "en/office"
 - name: Team
-  link: "/equipe"
+  link: "/en/team"
 - name: Articles
-  link: "/artigos"
+  link: "/en/articles"
