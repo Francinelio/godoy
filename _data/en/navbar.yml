@@ -1,5 +1,5 @@
 - name: Home
-  link: "/"
+  link: "/en"
 - name: Practice Areas
   dropdown: dropdown
   submenu:
@@ -20,4 +20,4 @@
 - name: Team
   link: "/en/team"
 - name: Articles
-  link: "/en/articles"
+  link: "/artigos"
