@@ -5,7 +5,7 @@
   submenu:
     - name: International Tax and Tax Law
       link: /en/areas/tax-law
-    - name: Startup e Open Innovation Law
+    - name: Startup and Open Innovation Law
       link: /en/areas/startup-and-open-innovation
     - name: International Law
       link: /en/areas/international-law
@@ -16,7 +16,7 @@
     - name: Notary Acts
       link: /en/areas/notary-acts
 - name: Office
-  link: "en/office"
+  link: "/en/office"
 - name: Team
   link: "/en/team"
 - name: Articles
