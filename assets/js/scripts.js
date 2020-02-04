@@ -1,7 +1,7 @@
 // Change menu color
 $(".navbar-toggler").click(function(){
-    $("nav").addClass('bg-dark');
-    $("nav").addClass('shadow');
+    $("nav.navbar").addClass('bg-dark');
+    $("nav.navbar").addClass('shadow');
 }); 
 
 // Collapse menu icon on link touch
@@ -14,18 +14,18 @@ window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
     if (document.body.scrollTop > 1 || document.documentElement.scrollTop > 1) {
-        $("nav").addClass('bg-dark');
-        $("nav").addClass('shadow');
-        $("nav").removeClass('py-4');
+        $("nav.navbar").addClass('bg-dark');
+        $("nav.navbar").addClass('shadow');
+        $("nav.navbar").removeClass('py-4');
     } else {
         if ($(".navbar-toggler").is(":visible") == false) {
-            $("nav").removeClass('bg-dark');
-            $("nav").removeClass('shadow');
-            $("nav").addClass('py-4');
+            $("nav.navbar").removeClass('bg-dark');
+            $("nav.navbar").removeClass('shadow');
+            $("nav.navbar").addClass('py-4');
         } else if ($("#navbarNav").is(":visible") == false) {
-            $("nav").removeClass('bg-dark');
-            $("nav").removeClass('shadow');
-            $("nav").addClass('py-4');
+            $("nav.navbar").removeClass('bg-dark');
+            $("nav.navbar").removeClass('shadow');
+            $("nav.navbar").addClass('py-4');
         }
     }   
 }
