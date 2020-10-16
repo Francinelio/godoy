@@ -1,6 +1,6 @@
-source "https://rubygems.org"
+source "http://rubygems.org"
 
-gem "jekyll", github: "jekyll/jekyll"
+gem "jekyll"
 
 group :jekyll_plugins do
   gem "jekyll-sitemap"

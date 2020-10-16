@@ -1,8 +1,4 @@
 - type: Portugal
-  formated: "+351 253 120 716"
-  link: "tel:+351253120716"
-  icon: phone-pt.svg
-- type: Portugal
   formated: "+351 913 701 800"
   link: "tel:+351913701800"
   icon: mobile-pt.svg
